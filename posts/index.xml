@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>https://afwe.github.io/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://afwe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test</title>
+      <link>https://afwe.github.io/posts/hello/</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://afwe.github.io/posts/hello/</guid>
+      <description> react接管了一系列的交互事件   触发了交互事件之后将更新渲染任务压入lane队列中。 若scheduledHostCallback不为null   reactBaseclass   位于react文件夹src，有类组件和函数组件   creactElement   返回 reactelement 在其中从config参数中获取其props ！props有保留字段key,ref,self,value  ReactElement(type,key,ref,self,source,ReactCurrentOwner.current,props,);-reactElement中的$$typeof可以加强安全性，判断某元素是否来自外部
+ reactdom.reander   位于reactdom文件夹 返回legacyRenderSubtreeIntoContainer进行初次渲染 container._reactRootContainer存储fiberroot  flushSync(() =&amp;gt; { updateContainer(children, fiberRoot, parentComponent, callback); });  首次更新渲染使用flushsync取消更新的异步性质   fiber树   lane 批处理处理更新事件   reconciler   react-reconciler文件夹 worktag存储更新事件类型定义  </description>
+      <content>&lt;blockquote&gt;
+&lt;h1 id=&#34;react接管了一系列的交互事件&#34;&gt;react接管了一系列的交互事件&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;触发了交互事件之后将更新渲染任务压入lane队列中。&lt;/li&gt;
+&lt;li&gt;若scheduledHostCallback不为null&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;reactbaseclass&#34;&gt;reactBaseclass&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;位于react文件夹src，有类组件和函数组件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;creactelement&#34;&gt;creactElement&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;返回 reactelement&lt;/li&gt;
+&lt;li&gt;在其中从config参数中获取其props&lt;/li&gt;
+&lt;li&gt;！props有保留字段key,ref,self,value&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ReactElement(
+  type,
+  key,
+  ref,
+  self,
+  source,
+  ReactCurrentOwner.current,
+  props,
+);
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;-reactElement中的$$typeof可以加强安全性，判断某元素是否来自外部&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;reactdomreander&#34;&gt;reactdom.reander&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;位于reactdom文件夹&lt;/li&gt;
+&lt;li&gt;返回legacyRenderSubtreeIntoContainer进行初次渲染&lt;/li&gt;
+&lt;li&gt;container._reactRootContainer存储fiberroot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;flushSync&lt;/span&gt;(() =&amp;gt; {
+      &lt;span style=&#34;color:#a6e22e&#34;&gt;updateContainer&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;children&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;fiberRoot&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;parentComponent&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;callback&lt;/span&gt;);
+    });
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;首次更新渲染使用flushsync取消更新的异步性质&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;fiber树&#34;&gt;fiber树&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;lane-批处理处理更新事件&#34;&gt;lane 批处理处理更新事件&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h1 id=&#34;reconciler&#34;&gt;reconciler&lt;/h1&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;react-reconciler文件夹&lt;/li&gt;
+&lt;li&gt;worktag存储更新事件类型定义&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
